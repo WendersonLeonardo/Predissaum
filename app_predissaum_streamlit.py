@@ -51,7 +51,7 @@ st.header('Base')
 st.subheader('Selecione, caso deseje, um intervalo para a base abaixo')
 inter_min1, inter_max1 = st.slider('escolha a qtd de unidades', 1,max,(1,max))
 
-linhaA = alt.Chart(dados.loc[(dados['index'] >= inter_min1)&(dados['index'] <= inter_max1)]).mark_line(
+linhaA = alt.Chart(dados).mark_line(
     color='lightgreen'
 ).encode(
     x = alt.X('index'),
