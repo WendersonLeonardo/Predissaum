@@ -49,7 +49,7 @@ with st.sidebar:
 
 st.header('Base')
 st.subheader('Selecione, caso deseje, um intervalo para a base abaixo')
-inter_min1, inter_max1 = st.slider('escolha a qtd de unidades', 1,max,(1,max))
+inter_min1, inter_max1 = st.slider(1,max,(1,max))
 
 linhaA = alt.Chart(dados).mark_line(
     color='lightgreen'
