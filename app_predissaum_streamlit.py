@@ -47,9 +47,11 @@ with st.sidebar:
     st.write('intervalo escolhido: ', inter_min, inter_max)
 
 
-st.subheader('combinassaum do grafico da base vs o predito')
-linhaA = alt.Chart(dados).mark_line(
-    #point=alt.OverlayMarkDef(color='green',size=50,filled=False,fill='red'),
+st.header('Base')
+st.subheader('Selecione, caso deseje, um intervalo para a base abaixo')
+inter_min1, inter_max1 = st.slider('escolha a qtd de unidades', 1,max,(1,max))
+
+linhaA = alt.Chart(dados.loc[(dados['index'] >= inter_min1)&(dados['index'] <= inter_max1)]).mark_line(
     color='lightgreen'
 ).encode(
     x = alt.X('index'),
@@ -62,6 +64,7 @@ linhaA = alt.Chart(dados).mark_line(
 )
 st.altair_chart(linhaA,use_container_width=True)
 
+st.subheader('combinassaum do grafico da base vs o predito')
 
 st.subheader('download da imagem')
 
