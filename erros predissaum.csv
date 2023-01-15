@@ -1,0 +1,9 @@
+combinassaum,error
+LSTM vs LSTM - camada1 = 56 | camada2 = 32,12.33
+GRU vs GRU - camada1 = 56 | camada2 = 32,12.29
+LSTM vs LSTM - camada1 = 81 | camada2 = 27,12.40
+GRU vs GRU - camada1 = 81 | camada2 = 27,12.49
+LSTM vs GRU - camada1 = 56 | camada2 = 32,12.24
+GRU vs LSTM - camada1 = 56 | camada2 = 32,12.41
+LSTM vs GRU - camada1 = 81 | camada2 = 27,12.31
+GRU vs LSTM - camada1 = 81 | camada2 = 27,12.41

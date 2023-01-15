@@ -1,0 +1,17 @@
+resultados rmse
+LSTM vs LSTM - camada1 = 56 | camada2 = 32
+Train Score: 9.91 RMSETest Score: 12.33 
+GRU vs GRU - camada1 = 56 | camada2 = 32
+RMSETrain Score: 9.92 RMSETest Score: 12.29 
+LSTM vs LSTM - camada1 = 81 | camada2 = 27
+RMSETrain Score: 9.75 RMSETest Score: 12.40 
+GRU vs GRU - camada1 = 81 | camada2 = 27
+RMSETrain Score: 9.83 RMSETest Score: 12.49 
+LSTM vs GRU - camada1 = 56 | camada2 = 32
+RMSETrain Score: 9.82 RMSETest Score: 12.24 
+GRU vs LSTM - camada1 = 56 | camada2 = 32
+RMSETrain Score: 9.55 RMSETest Score: 12.41 
+LSTM vs GRU - camada1 = 81 | camada2 = 27
+RMSETrain Score: 10.00 RMSETest Score: 12.31 
+GRU vs LSTM - camada1 = 81 | camada2 = 27
+RMSETrain Score: 9.82 RMSETest Score: 12.41 RMSE
