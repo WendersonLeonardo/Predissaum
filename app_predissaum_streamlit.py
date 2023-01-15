@@ -116,7 +116,7 @@ linhaC = alt.Chart(dadosB.loc[(dadosB['index'] >= inter_minB)&(dadosB['index'] <
     y = alt.Y(var)
 )
 
-erro = df.loc[(df['combinassaum'] == var)]['error'][0]
+erro = df.loc[(df['combinassaum'] == var)].reset_index()['error'][0]
 st.info('RMSE: ' + str(erro))
 
 st.altair_chart(linhaB+linhaC,use_container_width=True)
