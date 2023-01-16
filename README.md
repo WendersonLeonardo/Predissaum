@@ -7,10 +7,10 @@
 
 ## Graficos Streamlit
 - base
-![base]()
+![base](https://github.com/WendersonLeonardo/Predissaum/blob/main/imagens/base%20in%20streamlit.png)
 
 - RMSEs
-![RMSEs]()
+![RMSEs](https://github.com/WendersonLeonardo/Predissaum/blob/main/imagens/rmse%20in%20streamlit.png)
 
 - Predissaum
-![Predissaum]()
+![Predissaum](https://github.com/WendersonLeonardo/Predissaum/blob/main/imagens/pred%20in%20streamlit.png)
