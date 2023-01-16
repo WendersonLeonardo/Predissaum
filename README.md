@@ -2,8 +2,10 @@
 
 ## Links Importantes
 - Aplicação Streamlit
+https://wendersonleonardo-predissaum-app-predissaum-streamlit-imkm0l.streamlit.app/
 
 - Base Utilizada
+https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs?select=access.log
 
 ## Graficos Streamlit
 - base
